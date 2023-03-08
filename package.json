@@ -1,0 +1,35 @@
+{
+	"name": "s1mple-logger",
+	"version": "0.0.1",
+	"description": "This is a simple logger class for TypeScript applications that allows logging messages with different log levels (error, warn, info, debug) and customizing the log format with options.",
+	"main": "index.js",
+	"type": "module",
+	"bin": {
+		"s1mple-logger": "index.js"
+	},
+	"dependencies": {
+		"chalk": "^5.2.0",
+		"figures": "^5.0.0"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vedran77/s1mple-logger.git"
+	},
+	"keywords": [
+		"logger",
+		"typescript",
+		"nodejs",
+		"log",
+		"loglevel"
+	],
+	"author": "Vedran",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/vedran77/s1mple-logger/issues"
+	},
+	"homepage": "https://github.com/vedran77/s1mple-logger#readme"
+}
